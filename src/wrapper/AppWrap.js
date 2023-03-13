@@ -16,6 +16,9 @@ const AppWrap = (Component, idName, classNames) =>
             <p className="p-text" style={{ color: "#882170", fontSize: "0.7em" }}>
               All rights reserved
             </p>
+            <a href="https://taupe-moonbeam-ec9de1.netlify.app"><p className="p-text" style={{ color: "#882170", fontSize: "0.7em" }}>
+              developed by Jamil.
+            </p></a>     
           </div>
         </div>
         <NavigationDots active={idName} />
